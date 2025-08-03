@@ -9,6 +9,8 @@ public class Pessoa {
     private String dataNascimento;
     private float altura;
 
+
+
     public String getNome() {
         return nome;
     }
@@ -33,7 +35,7 @@ public class Pessoa {
         this.altura = altura;
     }
 
-    // Método para calcular idade
+    // Metodo para calcular idade
     public int calcularIdade() {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         LocalDate nascimento = LocalDate.parse(this.dataNascimento, formatter);
