@@ -1,16 +1,10 @@
-import br.kaynan.poo.heranca.Cachorro;
-import br.kaynan.poo.heranca.Dragao;
-import br.kaynan.poo.heranca.Pombo;
+import br.kaynan.poo.heranca.Arqueiro;
 
 public class Main {
     public static void main(String[] args) {
-        Pombo pombo = new Pombo("Pombo Correio");
-        pombo.enviarCartas();
-        pombo.enviarCartas();
-
-        Dragao dragao = new Dragao("Dragão Branco");
-        dragao.voar();
-        dragao.soltarFogo();
-
+        Arqueiro arqueiro = new Arqueiro("Legolas");
+        System.out.println(arqueiro);
+        arqueiro.atacar();
+        arqueiro.atacarSemArma();
     }
 }
