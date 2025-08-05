@@ -1,4 +1,6 @@
-package br.kaynan.poo.interfaces;
+package br.kaynan.poo.encapsulamento.interfaces;
+
+import br.kaynan.poo.encapsulamento.interfaces.FiguraGeometrica;
 
 public class Circulo implements FiguraGeometrica {
     private int raio;

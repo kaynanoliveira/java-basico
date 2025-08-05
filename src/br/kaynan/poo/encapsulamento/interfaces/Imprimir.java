@@ -1,4 +1,4 @@
-package br.kaynan.poo.interfaces;
+package br.kaynan.poo.encapsulamento.interfaces;
 
 public interface Imprimir {
     public void imprimirValor();

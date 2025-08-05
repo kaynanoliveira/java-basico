@@ -1,4 +1,4 @@
-package br.kaynan.poo.interfaces;
+package br.kaynan.poo.encapsulamento.interfaces;
 
 public class CalculadorArea {
     public double somarArea(FiguraGeometrica figuraA, FiguraGeometrica figuraB) {

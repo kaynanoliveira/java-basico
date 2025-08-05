@@ -1,4 +1,4 @@
-package br.kaynan.poo.interfaces;
+package br.kaynan.poo.encapsulamento.interfaces;
 
 public class Ingresso implements Imprimir{
     private double valorIngresso;
