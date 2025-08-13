@@ -17,5 +17,11 @@ public class App {
 
         System.out.println("Contatos filtrados: ");
         System.out.println(telefoneContatos.buscar("L"));
+
+        telefone.ligar(contato1);
+        telefone.ligar(contato2);
+        telefone.ligar(contato3);
+        telefone.ligar(contato4);
+        System.out.println(telefone.getChamadas());
     }
 }

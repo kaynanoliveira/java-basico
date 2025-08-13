@@ -1,7 +1,5 @@
 package br.kaynan.poo.agregacao;
-
 import java.util.ArrayList;
-import java.util.Locale;
 
 public class Contatos {
     private ArrayList<Contato> contatos;
